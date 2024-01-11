@@ -5,7 +5,7 @@ from telethon.tl.types import InputMediaPhoto
 
 S = "/start"
 START_PIC = "https://telegra.ph/file/394ee036e46c66084fe93.jpg"
-TEXT = "👋 Hi, I am 'Save Restricted Content' bot Made with ❤️ by __**࿗OM࿗™**__\n\n✅ Send me the Link of any message of Restricted Channels to Clone it here.\nFor private channel's messages, send the Invite Link first."
+TEXT = "**👋 Hi, I am 'Save Restricted Content' bot Made with ❤️ by** __**࿗OM࿗™**__\n\n✅ **Send me the Link of any message of Restricted Channels to Clone it here.**\n**For private channel's messages, send the Invite Link first.**"
 
 def is_set_button(data):
     return data == "set"
