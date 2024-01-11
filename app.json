@@ -8,7 +8,7 @@
         "Save restricted content",
         "bot"
     ],
-    "repository": "https://github.com/187dasharath/savebotworking",
+    "repository": "https://github.com/Om0008/OM",
     "website": "",
     "success_url": "https://t.me/save_restricted",
     "env": {
