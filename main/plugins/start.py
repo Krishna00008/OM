@@ -4,8 +4,8 @@ from telethon import events, Button
 from telethon.tl.types import InputMediaPhoto
 
 S = "/start"
-START_PIC = "https://graph.org/file/ffd7da274e555ed3a9fee.jpg"
-TEXT = "👋 Hi, I am 'Save Restricted Content' bot Made with ❤️ by __** 🅰🅸🆁 🅿🅷🅴🅾🅽🅸🆇™**__\n\n✅ Send me the Link of any message of Restricted Channels to Clone it here.\nFor private channel's messages, send the Invite Link first."
+START_PIC = "https://telegra.ph/file/394ee036e46c66084fe93.jpg"
+TEXT = "👋 Hi, I am 'Save Restricted Content' bot Made with ❤️ by __**࿗OM࿗™**__\n\n✅ Send me the Link of any message of Restricted Channels to Clone it here.\nFor private channel's messages, send the Invite Link first."
 
 def is_set_button(data):
     return data == "set"
@@ -50,9 +50,9 @@ async def remt(event):
 async def start_command(event):
     # Creating inline keyboard with buttons
     buttons = [
-        [Button.inline("SET THUMB.", data="set"),
-         Button.inline("REM THUMB.", data="rem")],
-        [Button.url("Join Channel", url="https://telegram.dog/dev_gagan")]
+        [Button.url("ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ❤️", url="https://t.me/vibrantsamundra")],
+        [Button.inline("ꜱᴇᴛ ᴛʜᴜᴍʙɴᴀɪʟ🙈", data="set"),
+         Button.inline("ʀᴇᴍᴏᴠᴇ ᴛʜᴜᴍʙɴᴀɪʟ🕺", data="rem")]
     ]
 
     # Sending photo with caption and buttons
