@@ -1,4 +1,4 @@
-#Join t.me/dev_gagan
+#Join t.me/vibrantsamundra 
 
 """
 Plugin for both public & private channels!
