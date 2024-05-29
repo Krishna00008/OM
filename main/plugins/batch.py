@@ -104,19 +104,19 @@ async def run_batch(userbot, client, chat_id, countdown, link):
     for i in range(len(ids)):
         timer = 6
         if i < 250:
-            timer = 6
+            timer = 10
         elif i < 1000 and i > 100:
-            timer = 8
+            timer = 12
         elif i < 10000 and i > 1000:
-            timer = 10
+            timer = 13
         elif i < 50000 and i > 10000:
-            timer = 5
+            timer = 14
         elif i < 100000 and i > 50000:
-            timer = 6
+            timer = 15
         elif i < 200000 and i > 100000:
-            timer = 8
+            timer = 16
         elif i < 1000000: 
-            timer = 10
+            timer = 17
         
         if 't.me/c/' not in link:
             timer = 1 if i < 500 else 2
